@@ -27,13 +27,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Connect to the Mongo DB
-//mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
-
-mongoose.connect("mongodb://david:norwich12@ds137801.mlab.com:37801/heroku_crs2g898", { useNewUrlParser: true });
-
-mongodb://david:norwich12@ds137801.mlab.com:37801/heroku_crs2g898
-
-mongodb://heroku_crs2g898:dmhs0ffr80sir70pi4n74dctk1@ds137801.mlab.com:37801/heroku_crs2g898
+mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
 
 // Routes
 
