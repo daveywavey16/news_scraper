@@ -29,7 +29,7 @@ app.use(express.static("public"));
 // Connect to the Mongo DB
 //mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://david:norwich12@ds255784.mlab.com:55784/heroku_78t5nz8c";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://heroku_78t5nz8c:ogllkhkv0pku8rtoo1qu0vucsq@ds255784.mlab.com:55784/heroku_78t5nz8c";
 
 mongoose.connect(MONGODB_URI);
 
